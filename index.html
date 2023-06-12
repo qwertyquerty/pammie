@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pammie!!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="fa.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.slim.js"
+    integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+    crossorigin="anonymous"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <script>
+        $(function(){
+            $('div[onload]').trigger('onload');
+        });
+    </script>
+</head>
+<body>
+    <div id="content-container">
+        <div id="content">
+            <div class="section" id="top-bar">
+                <div style="max-height: 100%; padding: 10px 0px; display: inline-block;">
+                    <a class="small-button">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div style="max-height: 100%; padding: 10px 0px; display: inline-block; float: right;">
+                    검색
+                    <input class="text-field fix-line-height" style="background-color: #CECECE; width: 380px;" placeholder=' ["where do we even begin?"] ' />
+                    <a class="small-button" style="font-size: 24px; width: 20px; height: 20px; margin: 0px 15px 0px 0px;">
+                        <div class="fa fa-search"></div>
+                    </a>
+                </div>
+                 
+            </div>
+
+            <div class="section" id="header">
+                <div style="max-height: 100%; padding: 8px 16px; display: inline-block; float: left;">
+                    username: <input class="text-field" style="width: 150px; margin-bottom: 2px;" placeholder='guest12356t' />
+                    <br>
+                    password: <input type="password" class="text-field" style="width: 150px;" />
+                </div>
+
+                <div id="menu-buttons" style="max-height: 100%; display: inline-block; padding: 20px 0px; float: right;">
+                    시간
+                    <div id="time-display" class="text-field fix-line-height">
+                        --:--
+                    </div>
+                    &nbsp;
+                    <a class="small-button">
+                        <i class="fas fa-house-user"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="fas fa-folder-open"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="far fa-calendar"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="fas fa-key"></i>
+                    </a>
+                    <a class="small-button">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section" id="top-buttons">
+                <a class="big-button">  
+                    <i class="far fa-user"></i> about me
+                </a>
+                <a class="big-button">
+                    <i class="far fa-folder-open"></i> portfolio
+                </a>
+                <a class="big-button">
+                    <i class="far fa-comment"></i> commission
+                </a>
+            </div>
+
+            <div class="section flex-row-container" id="content-main" style="height: 520px;">
+                <div class="flex-row-item" style="background-color: #EBEBEB; color: #ABABAB; font-size: 21px;">
+                    <img src="avatar.png" id="avatar" />
+                    <div style="height:2px;"></div> 
+                    <div class="fas fa-pen dashed-border-right"></div> <b> @pammie :3 ((she/any))</b>
+
+                    <div class="skill-stat">
+                        체력
+                        <div class="progress-bar">
+                            <div class="meter animate-on-load" style="width: 70%;"></div>
+                            <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                        </div>
+                        70%
+                    </div>
+                    <div class="skill-stat">
+                        마나
+                        <div class="progress-bar">
+                            <div class="meter animate-on-load" style="width: 90%;"></div>
+                            <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                        </div>
+                        90%
+                    </div>
+                    <div class="skill-stat">
+                        공격
+                        <div class="progress-bar">
+                            <div class="meter animate-on-load" style="width: 90%;"></div>
+                            <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                        </div>
+                        90%
+                    </div>
+                    <div class="skill-stat">
+                        방어
+                        <div class="progress-bar">
+                            <div class="meter animate-on-load" style="width: 20%;"></div>
+                            <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                        </div>
+                        20%
+                    </div>
+                    <div class="skill-stat">
+                        속도
+                        <div class="progress-bar">
+                            <div class="meter animate-on-load" style="width: 40%;"></div>
+                            <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                        </div>
+                        40%
+                    </div> 
+                </div>
+                <div class="flex-row-item">
+                    <p style="text-align: center; font-size: 20px; color: #ABABAB;">
+                        <div class="border" style="border-color: #ABABAB; width: 38px; border-right: none; max-height: 36px; padding: 6px 0px; text-align: center; display: inline-block; float: left; color: #ABABAB; font-size: 25px;">
+                            <b>≡</b>
+                        </div>
+                        <div class="border" style="border-color: #ABABAB; max-height: 36px; width: 277px; padding: 8px 0px; text-align: center; display: inline-block;">availability status</div>
+                        <br><br>
+                        <div style="text-align: center;">
+                            comissions: <b>[closed]</b>
+                            suggestion box: <b>[closed]</b>
+                            <br><br>
+                            i would absolutely love to discuss involvement on any illust, anim, and/or video related projects for fellow content creators!
+                            <br><br>
+                            please feel no pressure to consult me through emails or social media DMs! :D
+                            <br><br>
+                            <a class="big-button" style="max-height: 42px; padding: 8px 0px; border-color: #ABABAB; color: #ABABAB;">
+                                <i class="far fa-envelope"></i> contact me!! :D
+                            </a>
+                        </div>
+                    <p>
+                </div>
+                <div class="flex-row-item">
+                    <br>
+                    <hr>
+                    <br>
+                    <table style="width: 100%;">
+                        <th>
+                            <div class="fas fa-pen dashed-border-right"></div> progress
+                        </th>
+                        <tr>
+                            <td>
+                                current illustration
+                                <div class="skill-stat">
+                                    <div class="progress-bar" style="background-color: #FFFFFF;">
+                                        <div class="meter animate-on-load" style="width: 20%;"></div>
+                                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                                    </div>
+                                    20%
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                commission #1
+                                <div class="skill-stat">
+                                    <div class="progress-bar" style="background-color: #FFFFFF;">
+                                        <div class="meter animate-on-load" style="width: 20%;"></div>
+                                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                                    </div>
+                                    20%
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                commission #2
+                                <div class="skill-stat">
+                                    <div class="progress-bar" style="background-color: #FFFFFF;">
+                                        <div class="meter animate-on-load" style="width: 10%;"></div>
+                                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                                    </div>
+                                    10%
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br><hr><br>
+                    <div class="border" style="border-color: #ABABAB; width: 38px; border-right: none; max-height: 36px; padding: 6px 0px; text-align: center; display: inline-block; float: left; color: #ABABAB; font-size: 25px;">
+                        <b>≡</b>
+                    </div>
+                    <div class="border" style="border-color: #ABABAB; max-height: 36px; width: 277px; padding: 8px 0px; text-align: center; display: inline-block;">recent activity</div>
+                    <div>2023-06-18 | thumbnail art for tem07</div>
+                    <div style="height:5px;"></div> 
+                    <div>2023-06-06 | pamm.ie creation :D</div>
+                </div>
+            </div>
+            <div class="section" id="header">
+                <div style="max-height: 100%; padding: 20px 0px; text-align: center;">
+                    <a class="small-button hex">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a class="small-button hex">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a class="small-button hex">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="small-button hex">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="small-button hex">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="small-button hex">
+                        <i class="fab fa-reddit"></i>
+                    </a>
+                    <a class="small-button hex">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    setInterval(function() {
+        $("#time-display").text(String(new Date().getHours()).padStart(2, '0') + ":" + String(new Date().getMinutes()).padStart(2, '0'));
+    }, 100)
+
+    $(document).ready(function() {
+        $(".meter").removeClass("animate-on-load");
+    })
+</script>
+</html>
